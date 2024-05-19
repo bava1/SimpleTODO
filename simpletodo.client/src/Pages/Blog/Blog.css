@@ -1,0 +1,131 @@
+.blog {
+	color: #66ccff;
+	padding: 60px 0;
+}
+
+.blog h1, h2, h3 {
+	font-weight: 400 !important;
+}
+
+.blog-form {
+	width: 30%;
+	margin: 0 auto 30px;
+}
+
+.blog-form_input {
+	width: 100%;
+	margin: 15px auto;
+
+}
+
+.blog-form_input input {
+	width: 100%;
+	padding: 12px;
+	font-size: 1.3rem;
+	border-radius: 8px;
+	border: 1px dashed #66ccff;
+	color: #66ccff !important;
+	background-color: #190621 !important;
+	background: #190621 !important;
+}
+
+input:active {
+	background-color: #190621 !important;
+}
+
+.blog-form_input textarea {
+	width: 100%;
+	min-height: 80px;
+	padding: 12px;
+	font-size: 1.3rem;
+	border-radius: 8px;
+	border: 1px dashed #66ccff;
+	color: #66ccff !important;
+	background-color: #190621 !important;
+}
+
+input::placeholder {
+	color: #4da5d1 !important;
+}
+
+input input:focus {
+	outline: none;
+}
+
+textarea::placeholder {
+	color: #4da5d1 !important;
+}
+
+.blog-form button {
+	padding: 12px 16px;
+	font-size: 1.1rem;
+	border-radius: 8px;
+	margin: 10px 5px 0;
+	border: 1px dashed #66ccff;
+	color: #66ccff !important;
+	background-color: #190621 !important;
+}
+
+.blog-posts {
+	width: 30%;
+	margin: 20px auto 0;
+}
+
+.blog-posts_post {
+	width: 100%;
+	border: 1px dashed #66ccff;
+	padding: 10px;
+	border-radius: 12px;
+	margin-top: 14px;
+	font-size: 1.3rem;
+}
+
+.blog-posts_post-item {
+	padding: 5px;
+	display: flex;
+	word-wrap: break-word;
+	word-break: break-all;
+}
+
+.blog-posts_post-item div {
+	word-wrap: break-word;
+}
+
+.blog-posts_post-item_header {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.blog-posts_post-item_header div {
+	display: flex;
+	align-items: center;
+}
+
+.blog-posts_post-icon {
+	font-size: 1.5rem;
+	margin-right: 5px;
+}
+
+.blog-posts_post-icon_delete {
+	font-size: 1.5rem;
+	cursor: pointer;
+	margin: 0 0 5px 5px;
+
+}
+
+.blog-posts_post-icon_delete:hover {
+	color: rgb(250, 164, 164);
+	transform: scale(1.2);
+
+}
+.blog-posts_post-icon_update {
+	font-size: 1.4rem;
+	cursor: pointer;
+	margin: 0 0 5px 5px;
+}
+
+.blog-posts_post-icon_update:hover {
+	color: chartreuse;
+	transform: scale(1.2);
+}

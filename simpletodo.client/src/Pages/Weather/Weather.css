@@ -1,0 +1,36 @@
+#root {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background: #F2F2F2;
+}
+
+tr:nth-child(odd) {
+    background: #FFF;
+}
+
+th, td {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.weather {
+	color: #66ccff;
+	padding: 60px 0;
+}
+
+.weather h1 {
+	font-weight: 400 !important;
+}
+
+.weather-main {
+	width: 100%;
+	margin: 60px auto 0;
+}
+.weather-main_section {
+	display: flex;
+	justify-content: center;
+}

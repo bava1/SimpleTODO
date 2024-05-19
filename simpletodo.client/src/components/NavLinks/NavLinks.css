@@ -1,0 +1,21 @@
+.nav-links {
+    width: 100%;
+}
+
+.nav-links_main {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links_main-link {
+    margin: 0 10px;
+		font-size: 1.5rem;
+		color: #66ccff;
+}
+.nav-links_main-link:hover {
+	color: #c9efff;
+	transform: scale(1.02);
+}
+ 

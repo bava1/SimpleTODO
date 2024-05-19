@@ -1,0 +1,8 @@
+.tasks {
+	color: #66ccff;
+	padding: 60px 0;
+}
+
+.tasks h1, h3 {
+	font-weight: 400 !important;
+}

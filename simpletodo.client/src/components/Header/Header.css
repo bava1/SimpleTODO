@@ -1,0 +1,44 @@
+.header {
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 60px;
+	background-color: rgb(4, 89, 118);
+
+}
+
+.header-main {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	width: 100%; 
+	 
+}
+
+.header-main_logo {
+	width: 20%; 
+	padding: 5px 0 0 20px;
+	display: flex;
+}
+
+.header-main_logo-img {
+	width: 50%; 
+}
+
+.header-main_links {
+	width: 60%; 
+	padding: 12px 0 0;
+}
+
+.header-main_users {
+	width: 20%; 
+	padding: 12px 20px 0 0;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.header-main_users-icon {
+	font-size: 38px; 
+	color: #66ccff;
+	 
+}
